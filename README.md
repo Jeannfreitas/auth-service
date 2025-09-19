@@ -4,7 +4,7 @@ O Auth-Service é um microserviço de autenticação feito em Java com Spring Bo
 Ele permite autenticar usuários de forma simples, segura e escalável, sendo perfeito para aplicações modernas baseadas em microserviços.
 --------
 
-# 🐳 Rodando com Docker
+# Rodando com Docker
 
 Para rodar o serviço via Docker, siga estes passos:
 
@@ -22,7 +22,7 @@ Depois disso, o serviço estará disponível em http://localhost:8080.
 
 ---
 
-# 📦 Endpoints
+# Endpoints
 
 Aqui estão os principais endpoints que você pode usar:
 
@@ -81,7 +81,7 @@ Response:
 }
 ```
 
-# 🔒 Como funciona a autenticação
+# Como funciona a autenticação
 
 O fluxo de autenticação é bem simples:
 
