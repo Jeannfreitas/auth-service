@@ -1,8 +1,7 @@
 # auth-service
 
-O Auth-Service é um microserviço de autenticação criado em Java com Spring Boot.
-Ele foi feito para fornecer uma forma simples, segura e escalável de autenticar usuários em aplicações modernas, especialmente em arquiteturas de microserviços.
-
+O Auth-Service é um microserviço de autenticação feito em Java com Spring Boot.
+Ele permite autenticar usuários de forma simples, segura e escalável, sendo perfeito para aplicações modernas baseadas em microserviços.
 --------
 
 # 🐳 Rodando com Docker
