@@ -1,28 +1,70 @@
+# =========================
+# Spring Boot / Java
+# =========================
+
 # Build
 /target/
+*.class
+*.jar
+*.war
+*.ear
 
-# IDE
+# Maven
+/logs/
+!.mvn/wrapper/maven-wrapper.jar
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# Eclipse
+*.classpath
+*.project
+*.settings/
+
+# IntelliJ IDEA
 /.idea/
 /*.iml
+/out/
+
+# VS Code
 /.vscode/
 
-# Sistema
+# =========================
+# Sistema / Logs / Temp
+# =========================
 .DS_Store
 Thumbs.db
-
-# Logs
 *.log
-
-# Arquivos temporários
 *.tmp
 *.swp
 
-# Banco local
+# =========================
+# Banco / Dados locais
+# =========================
 /data/
+*.h2.db
 
-# Docker local
+# =========================
+# Docker
+# =========================
 docker-compose.override.yml
 .env
 
-# Chaves ou senhas
+# =========================
+# Segurança / Chaves
+# =========================
+*.jks
 *.keystore
+*.p12
+
+# =========================
+# Outros
+# =========================
+*.bak
+*.orig
